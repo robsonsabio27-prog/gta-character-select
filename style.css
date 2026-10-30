@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.textos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+}
+
+.nome {
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    bottom: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.personagem {
+    position: absolute;
+    height: min(700px, 100vh);
+    max-width: 100vw;
+    object-fit: contain;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.etiqueta01 {
+    font-size: 26px;
+    color: #ffd319;
+}
+
+.etiqueta02 {
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.etiqueta03 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #ffffff;
+}
+
+.voce{
+    background-color: #ffd319;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconVoce {
+    font-size: 40px;
+    line-height: 1;
+    transform: translateY(-6px);
+}
